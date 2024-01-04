@@ -20,7 +20,7 @@ const NewPost = () => {
         body: post
       })
 
-      navigate("/")
+      navigate("/blog_axios_front_react_js")
   }
 
   return (

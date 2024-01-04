@@ -19,24 +19,24 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: "/",
+        path: "/blog_axios_front_react_js",
         element: <Home />
       },
       {
-        path: "/new",
+        path: "/blog_axios_front_react_js/new",
         element: <NewPost />
       },
       {
-        path: "/posts/:id",
+        path: "/blog_axios_front_react_js/posts/:id",
         element: <Post />
         
       },
       {
-        path: "/Admin",
+        path: "/blog_axios_front_react_js/Admin",
         element: <Admin />
       },
       {
-        path: "/posts/edit/:id",
+        path: "/blog_axios_front_react_js/posts/edit/:id",
         element: <EditPost />
       }
     ]

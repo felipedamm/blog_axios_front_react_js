@@ -7,17 +7,17 @@ const Navbar = () => {
   return (
     <nav className="navbar">
         <h2>
-            <Link to={`/`}>Blog</Link>
+            <Link to={`/blog_axios_front_react_js`}>Blog</Link>
         </h2>
         <ul>
             <li>
-                <Link to={`/`}>Home</Link>
+                <Link to={`/blog_axios_front_react_js`}>Home</Link>
             </li>
             <li>
-                <Link to={`/admin`} >Gerenciar</Link>
+                <Link to={`/blog_axios_front_react_js/admin`} >Gerenciar</Link>
             </li>
             <li>
-                <Link to={`/new`} className='new-btn'>Novo Post</Link>
+                <Link to={`/blog_axios_front_react_js/new`} className='new-btn'>Novo Post</Link>
             </li>
            
         </ul>
